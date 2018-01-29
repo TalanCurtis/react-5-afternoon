@@ -25,7 +25,7 @@ class WizardOne extends Component {
                     <select onChange={(e)=>updatePropertyType(e.target.value)}>
 
                         <option value="Single Family Home">Single Family Home</option>
-                        <option value="Town Home">Townhome</option>
+                        <option value="Town Home">Townhome</option> 
                         <option value="Condo">Condo</option>
                         <option value="Multi Family Home">Multi Family Dwelling</option>
                         <option value="Mobile Home">Mobile Home</option>
