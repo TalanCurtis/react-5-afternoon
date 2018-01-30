@@ -130,7 +130,7 @@ class WizardEleven extends Component {
 function mapStateToProps(state) {
     return {
         loanType: state.loanType,
-        propertyType: state.propertyType,
+        propType: state.propType,
         city: state.city,
         propToBeUsedOn: state.propToBeUsedOn,
         found: state.found,
